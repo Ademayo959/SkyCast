@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SkyCast</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+
+       <h1 class="text-muted text-center my-4">SkyCast</h1>
+       <form class="change-location text-center text-muted my-4">
+        <label for="city" class="py-4">Enter a location for weather information</label>
+        <input type="text" name="city" class="p-4 form-control">
+       </form>
+       <div class="card shadow-lg rounded d-none">
+        <img src="https://via.placeholder.com/400×300" alt="" class="time card-img-top">
+        <div class=" icon bg-light mx-auto text-center">
+            <!--icon-->
+            <img src="" alt="">
+        </div>
+        <div class="text-muted text-uppercase text-center details">
+            <h5 class="my-3">City Name</h5>
+            <div class="my-3">Weather Condition</div>
+            <div class="display-4 my-4">
+                <span>temp</span>
+                <span>&deg;C</span>
+            </div>
+        </div>
+       </div>
+    </div>
+ <script src="forecast.js"></script>
+ <script src="app.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
