@@ -1,4 +1,4 @@
-# 🌦️ SkyCast - Weather Web App
+🌦️ SkyCast - Weather Web App
 
 SkyCast is a simple weather web app that shows the current weather conditions of any city using the AccuWeather API.
 
